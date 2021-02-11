@@ -1,0 +1,5 @@
+1. rails new crypto -d=postgresql --webpack=react
+2. rails db:create
+3. rails g model Currency name description max_supply:bigint currency_symbol slug
+4. rake db:migrate
+5. 
