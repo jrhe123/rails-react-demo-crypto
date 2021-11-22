@@ -7,7 +7,7 @@ class Currency < ApplicationRecord
       "amount"      => 1,
     }
     headers = { 
-      "X-CMC_PRO_API_KEY"  => "a96f0fc3-8807-4166-8736-297930edbbe8",
+      "X-CMC_PRO_API_KEY"  => "YOUR_API_KEY",
     }
     request = HTTParty.get(
       url, 
